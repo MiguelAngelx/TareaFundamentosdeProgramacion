@@ -1,4 +1,4 @@
-def totalcajaregistradora():
+def totalcajaregistradoraMAQC():
     billetes_de_100 = int (input ('Ingrese el valor de billetes de 100: '))
     billetes_de_1000 = int (input ('Ingrese el valor de billetes de 1000: '))
     billetes_de_20 = int (input ('Ingrese el valor de billetes de 20: '))
@@ -12,4 +12,4 @@ def totalcajaregistradora():
     monedas_de_5 = int (input ('Ingrese el valor de monedas de 5: '))
     total=billetes_de_1000*1000+billetes_de_500*500+billetes_de_200*200+billetes_de_100*100+billetes_de_50*50+billetes_de_20*20+monedas_de_20*20+monedas_de_10*10+monedas_de_5*5+monedas_de_2*2+monedas_de_1
     print ('Valor de total: ' + repr (total))
-totalcajaregistradora()
+totalcajaregistradoraMAQC()
